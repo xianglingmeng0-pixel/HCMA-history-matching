@@ -7,9 +7,9 @@ This repository provides the implementation of the HCMA surrogate model proposed
 > *An Efficient Spatiotemporal Surrogate Model for Automatic Reservoir History Matching with Long-Horizon Production Dynamics*
 
 ## Environment
-- Python >= 3.9
-- PyTorch >= 2.0
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
+- Python >= 3.8
+- PyTorch >= 1.12
+- numpy>=1.21
+- h5py>=3.7
+- scikit-learn>=1.1
+- CUDA (optional, for GPU acceleration)
